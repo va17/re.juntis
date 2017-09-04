@@ -14,7 +14,7 @@ def gera_csvs():
 
 		nome_arq = csvs[x]
 		nome_arq_new_temp = csvs[x]
-		nome_arq_new = nome_arq_new_temp.replace('.csv',str(x)+'.csv')# acrescenta um número no nome do aluno para não sobrescrever o arquivo original
+		nome_arq_new = nome_arq_new_temp.replace('.csv','new.csv')# acrescenta um número no nome do aluno para não sobrescrever o arquivo original
 		target = open(nome_arq_new,'w')
 		aprovadas = []
 		reprovadas = []
