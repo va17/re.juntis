@@ -1,0 +1,99 @@
+# -*- coding: utf-8 -*-
+import os, time, sys, csv
+def gera_csvs():
+	pass
+	lista = os.listdir('/home/miguel/Documentos/programasPython')# pega os nomes dos arquivos na pasta
+	csvs = [arq for arq in lista if arq.lower().endswith(".csv") and arq != 'disciplinas.csv']# pega os nomes dos arquivos que são CSVs
+	curso = []
+	with open('disciplinas.csv', 'rb') as disciplinas:
+		read = csv.reader(disciplinas)   
+		for linha in read:
+			curso.append(linha[0])
+
+	for x in xrange(0,len(csvs)):# para cada arquivo, gerar um novo arquivo somente com o que interessa
+
+		nome_arq = csvs[x]
+		nome_arq_new_temp = csvs[x]
+		nome_arq_new = nome_arq_new_temp.replace('.csv','-new.csv')# acrescenta um sufixo no nome do aluno para não sobrescrever o arquivo original
+		target = open(nome_arq_new,'w')
+		aprovadas = []
+		reprovadas = []
+		cursando = []
+		pendentes = []
+		with open(nome_arq, 'rb') as arquivo:
+			reader = csv.reader(arquivo)   
+			cont = 0
+			for linha in reader:
+				i=0
+				while(i < len(linha) and cont<6):
+					if linha[i].startswith('Nome') == True or linha[i].startswith('CPF') == True or linha[i].startswith('Nascimento') == True or linha[i].startswith('Curso') == True or linha[i].startswith('Forma de') == True or linha[i].startswith('Ano/') == True:
+						target.write(linha[i])
+						target.write("\n")
+						cont += 1
+					i += 1
+			arquivo.seek(0)
+
+			for linha in reader:
+				i=0
+
+				while(i < len(linha)):
+					index=0
+					if linha[i] == "APROVADO":
+						aprovadas.append(linha[2])
+						while(index<len(linha)):
+							if linha[index] != "":
+								target.write(linha[index])
+								target.write(",")
+								if index==(i):
+									target.write("\n")									
+							index += 1						
+					i += 1
+			print(len(aprovadas))
+	# Fim do laço for
+			arquivo.seek(0)
+
+			for linha in reader:
+				k=0
+				while(k < len(linha)):
+					index=0
+					if linha[k] == "REPROVADO" or linha[k] == "REPROVADO POR FALTAS":
+						reprovadas.append(linha[2])
+						while(index<len(linha)):
+							if linha[index] != "":
+								target.write(linha[index])
+								target.write(",")
+								if index==(k):
+									target.write("\n")									
+							index += 1	
+					k += 1
+	# Fim do laço for
+			# arquivo.seek(0)
+
+			# for linha in reader:
+			# 	j=0
+			# 	while(j < len(linha)):
+			# 		if linha[j] == "MATRICULADO": #NÃO TEM SENTIDO PROCURAR MATRICULADO PQ O REJUNTIS VAI RODAR ANTES DAS MATRICULAS NÉ?
+			# 			target.write(linha[0])
+			# 			target.write(",")
+			# 			target.write(linha[2])
+			# 			target.write(",")
+			# 			target.write(linha[j])
+			# 			target.write("\n")
+			# 			cursando.append(linha[2])
+			# 		j += 1
+	# Fim do laço for # 
+	pendentes = list(set(curso)-set(aprovadas))
+
+	print 'Curso:\n'					
+	print(curso)	
+	print 'Aprovadas:\n'					
+	print(aprovadas)	
+	print 'Reprovadas:\n'					
+	print(reprovadas)	
+	print 'Cursando:\n'	
+	print(cursando)
+	print 'Pendentes:\n'	
+	print(pendentes)
+	print 'Pronto' # Fim da função gera_csvs
+# !!!! fazer função para separar as cadeiras em listas uma para aprovadas outra para reprovadas, outra matriculado e outra paras as que faltam
+gera_csvs()
