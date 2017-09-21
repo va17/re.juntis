@@ -6,17 +6,17 @@
 Esta etapa incluí todo o trabalho por trás do carregamento de dados do sistema. Os dados devem ser convertidos de seu valor original para objetos Dictionary do Python, [ler mais aqui](https://docs.python.org/2/tutorial/datastructures.html#dictionaries).
 
 - Lê disciplinas (separadas por semestre e priorizadas);
-	- [ ] Criar função que lê CSV contendo as disciplinas com suas respectivas prioridades (prioridade = cadeia/caminho de disciplinas trancadas) e armazena no banco de dados `load_disciplinas()`
-	- [ ] Criar função que lê disciplinas do banco de dados `get_disciplinas()` (Nome, CH, CR, Semestre, Pre-requisitos, Prioridade, Projetor (bool), Laboratório Eletrônica (bool), Laboratório Informática (bool))
+	- [ ] Criar função que lê CSV contendo as disciplinas com suas respectivas prioridades (prioridade = cadeia/caminho de disciplinas trancadas) e armazena no banco de dados `load_disciplinas()` - Aleff
+	- [ ] Criar função que lê disciplinas do banco de dados `get_disciplinas()` (Nome, CH, CR, Semestre, Pre-requisitos, Prioridade, Projetor (bool), Laboratório Eletrônica (bool), Laboratório Informática (bool)) - Aleff
 - Lê alunos (nome, matricula, % do curso) e disciplinas que tem permissão de fazer;
 	* [ ] Criar função que lê CSV de cada aluno e carrega seus dados em uma lista de dictionaries `store_alunos()`;
 		* Campos dict: `nome` (string), `matricula` (string), `porcentagem_curso` (float), `disciplinas_pendentes_possiveis` (list of strings)
-	* [ ] Criar formulário de pesquisa para alunos (salvar diretamente no banco)  
+	* [ ] Criar formulário de pesquisa para alunos (salvar diretamente no banco) - Marcos
 	* [ ] Criar função que obtém as preferências (pesquisa) de alunos do banco de dados e adiciona ao objeto dict (list);
 		* `get_preferences(Id ou Matricula ou Email)` // Retorna as preferências de um dado aluno;
 		* `get_preferences()` // Retorna as preferências de todos os alunos;
 	* [ ] Criar funções para leitura de alunos do banco de dados (`get_aluno(Matricula)` e `get_alunos()`)
-- Lê professores (horários disponíveis em intervalos e lista de disciplinas que podem lecionar).
+- Lê professores (horários disponíveis em intervalos e lista de disciplinas que podem lecionar) - Fernanda e Francisco
 	* [ ] Criar formulário para professores para obter seus horários de disponibilidade;
 	* [ ] Adicionar ao objeto professor no banco uma lista de disciplinas que o mesmo pode lecionar;
 	* [ ] Criar função `get_professores()` que retorna uma lista de objetos professor;
