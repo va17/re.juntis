@@ -24,6 +24,11 @@ Esta etapa incluí todo o trabalho por trás do carregamento de dados do sistema
 
 ### Segunda etapa:
 
+- Ler coordenador ()
+	* [ ] Definir disciplinas a serem ofertadas no semestre;
+	* [ ] Alterar/excluir/incluir disciplinas no bd, caso a matriz curricular seja alterada;
+	* [ ] Definir cronograma do funcionamento do sistema;
+	* [ ] Alterar a grade manualmente;
 - Remover disciplinas que não podem ser lecionadas (não há professores ou não é o semestre dela);
 	* [ ] Criar função que retorna todas as disciplinas possíveis do semestre (`get_valid_disciplinas(int Semestre)`)
 - [ ] Criar função que gera uma lista de disciplinas para cada aluno:
