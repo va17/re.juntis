@@ -5,6 +5,7 @@ Este documento deverá conter toda a documentação relacionada a resolução de
 ## Idéia geral
 
 ### Primeira etapa:
+
 - Lê disciplinas (separadas por semestre e priorizadas);
 - Lê alunos (nome, matricula, % do curso) e disciplinas que tem permissão de fazer;
 - Lê professores (horários disponíveis em intervalos e lista de disciplinas que podem lecionar).
@@ -22,7 +23,7 @@ Este documento deverá conter toda a documentação relacionada a resolução de
 - Priorização por votos, alunos de segundo semestre peso 2, alunos com mais de 80% peso 5, outros peso 1;
 - Remover disciplinas com 0 votos;
 - Definir X créditos (soma total dos créditos possíveis): somar total de horas disponíveis dos professores, 1 hora = 1 crédito;
-- Por semestre é possível ter X créditos, somar número de créditos das disciplinas e virificar se é > X; se sim, remover disciplinas com < 2 votos suficientes para que se obtenha X créditos na soma total; Também é possível remover disciplinas que passem da carga horária de um professor (exemplo: Professor Blah tem 12 créditos na semana mas existem 4 disciplinas com votos, remover a que tiver menos votos).
+- Por semestre é possível ter X créditos, somar número de créditos das disciplinas e verificar se é > X; se sim, remover disciplinas com < 2 votos suficientes para que se obtenha X créditos na soma total; Também é possível remover disciplinas que passem da carga horária de um professor (exemplo: Professor Blah tem 12 créditos na semana mas existem 4 disciplinas com votos, remover a que tiver menos votos).
 
 ### Quarta etapa:
 - Definir horários (intervalos) possíveis para cada disciplina pelos professores que podem ministrá-las (utilizar professor prioritário da disciplina);
@@ -30,7 +31,7 @@ Este documento deverá conter toda a documentação relacionada a resolução de
 	* Opção 1:
 		- Montar horários (300+) desconsiderando conflitos com alunos, porém, considerando conflitos de semestre e salas (utilização do algoritmo [Given n appointments, find all conflicting appointments] ou semelhantes como [Hopcroft–Karp algorithm] e [Bipartite_matching]);
 		- Dar um score para cada horário considerando os conflitos com alunos;
-		- Selecionar 10 horários os com menores scores de conflito;
+		- Selecionar 10 horários com menores scores de conflito;
 
 
 
