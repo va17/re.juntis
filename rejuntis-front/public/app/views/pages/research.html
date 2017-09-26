@@ -1,0 +1,353 @@
+<link href="../../assets/css/panels-with-nav-tabs.css" rel="stylesheet">
+
+<form ng-submit="research.resUser();">    
+
+    <div ng-controller="resCtrl">
+        <div class="container">
+            <p><h4> Pesquisa de interesse das disciplinas </h4></p>
+            <p>Pesquisa de interesse das disciplinas para elaboração da grade de horários 
+                do próximo semestre. Selecione abaixo as cadeiras as quais deseja cursar.</p>
+        </div>
+
+        <br>
+
+        <div class="container">
+            <div class="col-mg-6 col-sm-12">
+                <div class="container">
+                    <div class="container">
+                        <p><h2 align="center">Engenharia de Computação</h2></p>
+                        <br>
+                        <div class="col-mg-6 col-sm-6">
+                            
+                            <p><h4>Estudante: Marcos Cirilo Abreu da Silva</h4></p>
+                            <br>
+                            <p><h5>Email: marcosabreudasilva@gmail.com</h5></p>
+                            <p><h5>Turma: 2010/2</h5></p>
+                            <br>
+                        </div>
+                        <div class="col-mg-6 col-sm-6">
+                            <div class="well">
+                                Progress Bar
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">                    
+                                <div class="panel with-nav-tabs panel-primary">
+                                    <div class="panel-heading">
+                                        <ul class="nav nav-tabs ">
+                                            <li class="active">
+                                                <a href="#tab_default_1" data-toggle="tab"onclick="return false;">
+                                                Aptas </a>
+                                            </li>
+                                            <li>
+                                                <a href="#tab_default_2" data-toggle="tab"onclick="return false;">
+                                                Pretendidas </a>
+                                            </li>
+                                            
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="tab_default_1">
+                                                
+                                                <div class="panel-group">
+                                                    <div class="panel panel-default">
+                                                        
+                                                        <div class="panel-heading" href="#claApto1" data-toggle="collapse" onclick="return false;">
+                                                            <h4> 1º Semestre </h4>
+                                                        </div>
+                                                        
+                                                        <div id="claApto1" class="collapse panel-collapse">
+                                                            <div class="panel-body">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item" ng-repeat="disciplina in listaDisciplinas | filter: { semestre: '1' }">
+                                                                        <div class="panel">
+                                                                            <div class="[ col-xs-12 col-sm-6 ]">
+                                                                                <div class="[ form-group ]">
+                                                                                        <input type="checkbox" name="fancy-checkbox-defaulta" ng-model="research.selection.ids[disciplina.id]" id="{{disciplina.id}}" autocomplete="off" />
+                                                                                        <div class="[ btn-group ]">
+                                                                                            <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                <span class="[ glyphicon glyphicon-ok ]"></span>
+                                                                                                <span> </span>
+                                                                                            </label>
+                                                                                            <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                <a ng-click="disciplina.isCollapsed = !disciplina.isCollapsed" onclick="return false;"> 
+                                                                                                    {{disciplina.nome}}
+                                                                                                </a>
+                                                                                            </label>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div collapse="disciplina.isCollapsed">
+                                                                                    <div ng-show="!disciplina.isCollapsed">
+                                                                                        <div class="panel-body">
+                                                                                            <ul>
+                                                                                                <li>
+                                                                                                    Pré-requisito: {{disciplina.prerequisito}} <br>
+                                                                                                    Créditos: {{disciplina.creditos}} <br>
+                                                                                                    Carga horária: {{disciplina.cargahoraria}}
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-heading" href="#claApto2" data-toggle="collapse" onclick="return false;">
+                                                            <h4> 2º Semestre </h4>
+                                                        </div>
+                                                        <div id="claApto2" class="collapse panel-collapse">
+                                                                <div class="panel-body">
+                                                                        <ul class="list-group">
+                                                                            <li class="list-group-item" ng-repeat="disciplina in listaDisciplinas | filter: { semestre: '2' }">
+                                                                                <div class="panel">
+                                                                                    <div class="[ col-xs-12 col-sm-6 ]">
+                                                                                        <div class="[ form-group ]">
+                                                                                                <input type="checkbox" name="fancy-checkbox-defaulta" ng-model="research.selection.ids[disciplina.id]" id="{{disciplina.id}}" autocomplete="off" />
+                                                                                                <div class="[ btn-group ]">
+                                                                                                    <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                        <span class="[ glyphicon glyphicon-ok ]"></span>
+                                                                                                        <span> </span>
+                                                                                                    </label>
+                                                                                                    <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                        <a ng-click="disciplina.isCollapsed = !disciplina.isCollapsed" onclick="return false;"> 
+                                                                                                            {{disciplina.nome}}
+                                                                                                        </a>
+                                                                                                    </label>
+                                                                                                </div>
+                                                                                        </div>
+                                                                                        <div collapse="disciplina.isCollapsed">
+                                                                                            <div ng-show="!disciplina.isCollapsed">
+                                                                                                <div class="panel-body">
+                                                                                                    <ul>
+                                                                                                        <li>
+                                                                                                            Pré-requisito: {{disciplina.prerequisito}} <br>
+                                                                                                            Créditos: {{disciplina.creditos}} <br>
+                                                                                                            Carga horária: {{disciplina.cargahoraria}}
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-heading" href="#claApto3" data-toggle="collapse" onclick="return false;">
+                                                            <h4> Eletivas </h4>
+                                                        </div>
+                                                        <div id="claApto3" class="collapse panel-collapse">
+                                                                <div class="panel-body">
+                                                                        <ul class="list-group">
+                                                                            <li class="list-group-item" ng-repeat="disciplina in listaDisciplinas | filter: { semestre: 'e' }">
+                                                                                <div class="panel">
+                                                                                    <div class="[ col-xs-12 col-sm-6 ]">
+                                                                                        <div class="[ form-group ]">
+                                                                                                <input type="checkbox" name="fancy-checkbox-defaulta" ng-model="research.selection.ids[disciplina.id]" id="{{disciplina.id}}" autocomplete="off" />
+                                                                                                <div class="[ btn-group ]">
+                                                                                                    <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                        <span class="[ glyphicon glyphicon-ok ]"></span>
+                                                                                                        <span> </span>
+                                                                                                    </label>
+                                                                                                    <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                        <a ng-click="disciplina.isCollapsed = !disciplina.isCollapsed" onclick="return false;"> 
+                                                                                                            {{disciplina.nome}}
+                                                                                                        </a>
+                                                                                                    </label>
+                                                                                                </div>
+                                                                                        </div>
+                                                                                        <div collapse="disciplina.isCollapsed">
+                                                                                            <div ng-show="!disciplina.isCollapsed">
+                                                                                                <div class="panel-body">
+                                                                                                    <ul>
+                                                                                                        <li>
+                                                                                                            Pré-requisito: {{disciplina.prerequisito}} <br>
+                                                                                                            Créditos: {{disciplina.creditos}} <br>
+                                                                                                            Carga horária: {{disciplina.cargahoraria}}
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="tab-pane" id="tab_default_2">
+                                                    <div class="tab-pane active" id="tab_default_1">
+                                                            
+                                                            <div class="panel-group">
+                                                                <div class="panel panel-default">
+                                                                    
+                                                                    <div class="panel-heading" href="#claPret1" data-toggle="collapse" onclick="return false;">
+                                                                        <h4> 1º Semestre </h4>
+                                                                    </div>
+                                                                    
+                                                                    <div id="claPret1" class="collapse panel-collapse">
+                                                                        <div class="panel-body">
+                                                                            <ul class="list-group">
+                                                                                <li class="list-group-item" ng-repeat="disciplina in listaDisciplinas | filter: { semestre: '1' }">
+                                                                                    <div class="panel">
+                                                                                        <div class="[ col-xs-12 col-sm-6 ]">
+                                                                                            <div class="[ form-group ]">
+                                                                                                    <input type="checkbox" name="fancy-checkbox-defaulta" ng-model="research.selection.ids[disciplina.id]" id="{{disciplina.id}}" autocomplete="off" />
+                                                                                                    <div class="[ btn-group ]">
+                                                                                                        <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                            <span class="[ glyphicon glyphicon-ok ]"></span>
+                                                                                                            <span> </span>
+                                                                                                        </label>
+                                                                                                        <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                            <a ng-click="disciplina.isCollapsed = !disciplina.isCollapsed" onclick="return false;"> 
+                                                                                                                {{disciplina.nome}}
+                                                                                                            </a>
+                                                                                                        </label>
+                                                                                                    </div>
+                                                                                            </div>
+                                                                                            <div collapse="disciplina.isCollapsed">
+                                                                                                <div ng-show="!disciplina.isCollapsed">
+                                                                                                    <div class="panel-body">
+                                                                                                        <ul>
+                                                                                                            <li>
+                                                                                                                Pré-requisito: {{disciplina.prerequisito}} <br>
+                                                                                                                Créditos: {{disciplina.creditos}} <br>
+                                                                                                                Carga horária: {{disciplina.cargahoraria}}
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+            
+                                                                </div>
+                                                                <div class="panel panel-default">
+                                                                    <div class="panel-heading" href="#claPret2" data-toggle="collapse" onclick="return false;">
+                                                                        <h4> 2º Semestre </h4>
+                                                                    </div>
+                                                                    <div id="claPret2" class="collapse panel-collapse">
+                                                                            <div class="panel-body">
+                                                                                    <ul class="list-group">
+                                                                                        <li class="list-group-item" ng-repeat="disciplina in listaDisciplinas | filter: { semestre: '2' }">
+                                                                                            <div class="panel">
+                                                                                                <div class="[ col-xs-12 col-sm-6 ]">
+                                                                                                    <div class="[ form-group ]">
+                                                                                                            <input type="checkbox" name="fancy-checkbox-defaulta" ng-model="research.selection.ids[disciplina.id]" id="{{disciplina.id}}" autocomplete="off" />
+                                                                                                            <div class="[ btn-group ]">
+                                                                                                                <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                                                                                                                    <span> </span>
+                                                                                                                </label>
+                                                                                                                <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                                    <a ng-click="disciplina.isCollapsed = !disciplina.isCollapsed" onclick="return false;"> 
+                                                                                                                        {{disciplina.nome}}
+                                                                                                                    </a>
+                                                                                                                </label>
+                                                                                                            </div>
+                                                                                                    </div>
+                                                                                                    <div collapse="disciplina.isCollapsed">
+                                                                                                        <div ng-show="!disciplina.isCollapsed">
+                                                                                                            <div class="panel-body">
+                                                                                                                <ul>
+                                                                                                                    <li>
+                                                                                                                        Pré-requisito: {{disciplina.prerequisito}} <br>
+                                                                                                                        Créditos: {{disciplina.creditos}} <br>
+                                                                                                                        Carga horária: {{disciplina.cargahoraria}}
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="panel panel-default">
+                                                                    <div class="panel-heading" href="#claPretE" data-toggle="collapse" onclick="return false;">
+                                                                        <h4> Eletivas </h4>
+                                                                    </div>
+                                                                    <div id="claPretE" class="collapse panel-collapse">
+                                                                            <div class="panel-body">
+                                                                                    <ul class="list-group">
+                                                                                        <li class="list-group-item" ng-repeat="disciplina in listaDisciplinas | filter: { semestre: 'e' }">
+                                                                                            <div class="panel">
+                                                                                                <div class="[ col-xs-12 col-sm-6 ]">
+                                                                                                    <div class="[ form-group ]">
+                                                                                                            <input type="checkbox" name="fancy-checkbox-defaulta" ng-model="research.selection.ids[disciplina.id]" id="{{disciplina.id}}" autocomplete="off" />
+                                                                                                            <div class="[ btn-group ]">
+                                                                                                                <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                                                                                                                    <span> </span>
+                                                                                                                </label>
+                                                                                                                <label for="{{disciplina.id}}" class="[ btn btn-default ]">
+                                                                                                                    <a ng-click="disciplina.isCollapsed = !disciplina.isCollapsed" onclick="return false;"> 
+                                                                                                                        {{disciplina.nome}}
+                                                                                                                    </a>
+                                                                                                                </label>
+                                                                                                            </div>
+                                                                                                    </div>
+                                                                                                    <div collapse="disciplina.isCollapsed">
+                                                                                                        <div ng-show="!disciplina.isCollapsed">
+                                                                                                            <div class="panel-body">
+                                                                                                                <ul>
+                                                                                                                    <li>
+                                                                                                                        Pré-requisito: {{disciplina.prerequisito}} <br>
+                                                                                                                        Créditos: {{disciplina.creditos}} <br>
+                                                                                                                        Carga horária: {{disciplina.cargahoraria}}
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+            
+                                                        </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+            </div>
+        </div>
+
+        <div class="container">
+            <pre ng-bind="research.selection.ids | json"></pre>
+            <button class="btn btn-primary" type="submit"> Enviar Pesquisa </button>        
+        </div>
+    </div>
+
+</form>

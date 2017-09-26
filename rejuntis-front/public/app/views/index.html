@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>RE.Juntis</title>
+
+    <!-- CSS -->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../../assets/css/animate.css" rel="stylesheet">
+    <link href="../../assets/css/style.css" rel="stylesheet">
+    <link href="../../assets/css/button-details.css" rel="stylesheet">
+    <link href="../../assets/css/side-by-side-div.css" rel="stylesheet">
+    <link href="../../assets/css/style-checkbox.css" rel="stylesheet">
+    <link href="../../assets/css/panels-with-nav-tabs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="../../assets/css/line-tabs.css" rel="stylesheet">
+    <link href="../../assets/css/circle-progress-bar.css" rel="stylesheet">
+    
+    
+    <!-- Main angular files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular-animate.js"></script>
+  <script src="../../assets/js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+  <script src="../../assets/js/angular-touch.js"></script>
+  
+  <!-- angular config/routes -->
+  <script src="app/app.js"></script> 
+  <script src="app/router.js"></script>
+
+  <!-- angular controlers -->
+  <script src="app/controllers/userCtrl.js"></script>
+  <script src="app/controllers/researchCtrl.js"></script>
+
+  <!-- angular services -->
+  <script src="app/services/userServices.js"></script>
+  
+	
+  </head>
+
+  <body ng-app="userApp" ng-controller="resCtrl">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">RE.juntis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="/research">Pesquisa</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/register">Cadastrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">Sobre</a>
+          </li>
+    		  
+          
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">RE.juntis</h1>
+            <p>Sistema para montagem de grade semestral da UERGS.</p>
+            <p>P.s.: Sistema que vai derrubar o Solis.GE.</p>
+        </div>
+    </div>
+
+    <div ng-view>
+      
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="../../assets/js/jquery-3.2.1.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="../../assets/js/bootstrap.js"></script>
+    <script src="../../assets/js/panel-with-card.js"></script>
+  </body>
+</html>

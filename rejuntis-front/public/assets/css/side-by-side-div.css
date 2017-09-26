@@ -1,0 +1,16 @@
+#wrapper {
+     
+     margin: 0 auto;
+}
+#leftcolumn, #centercolumn, #rightcolumn {
+    float: left;
+}
+#leftcolumn {
+     min-width: 20px;
+}
+#centercolumn {
+    min-width: 400px;
+}
+#rightcolumn {
+     min-width: 400px;
+}

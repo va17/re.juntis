@@ -1,0 +1,25 @@
+{
+  "name": "rejuntis-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Abreu",
+  "license": "ISC",
+  "dependencies": {
+    "angular-route": "^1.6.6",
+    "angular-ui-bootstrap": "^2.5.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.11.10",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "scope": "^0.10.1"
+  }
+}
