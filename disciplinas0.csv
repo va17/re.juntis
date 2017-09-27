@@ -1,62 +1,62 @@
-﻿Introdução à Engenharia de Computação,2,Letícia,30,0
-Epistemologia,2,Roberto,30,1
-Produção Textual,4,Magali,60,0
-Álgebra Linear e Geometria Analítica,4,Roberto,60,8
-Cálculo I,4,Luciano,60,8
-Algoritmos e Programação,4,Margrit,60,5
-Lógica para Computação,4,Fabrícia,60,5
-Arquitetura de Computadores I,4,João,60,6
-Arquitetura de Computadores II,4,Débora,60,5
-Cálculo II,4,Roberto,60,7
-Técnicas Digitais,4,Adriane,60,3
-Física I,4,Fernando,60,4
-Laboratório de Física I,2,Fernando,30,3
-Estruturas de Dados,4,Margrit,60,4
-Metodologia Científica,2,Débora,30,0
-Tecnologia Ambiente e Sociedade,2,Fabrícia,30,0
-Física II,4,Fernando,60,3
-Laboratório de Física II,2,Fernando,30,2
-Cálculo Vetorial,4,Roberto,60,0
-Cálculo III,4,Roberto,60,6
-Sistemas Digitais,4,João,60,0
-Circuitos Elétricos I,4,Adriane,60,6
-Engenharia de Software,4,Fabrícia,60,0
-Física III,4,Fernando,60,3
-Laboratório de Física III,2,Fernando,30,2
-Circuitos Elétricos II,4,Adriane,60,5
-Cálculo IV,4,Roberto,60,4
-Métodos Numéricos,4,Roberto,60,4
-Programação de Sistemas,4,Celso,60,0
-Organização de Computadores,4,Débora,60,1
-Materiais de Engenharia,4,Dionísio,60,0
-Eletrônica I,6,Letícia,90,4
-Teoria da Computação,4,Fabrícia,60,0
-Física IV,4,Fernando,60,1
-Laboratório de Sistemas Operacionais,2,Margrit,30,2
-Sistemas Operacionais,4,Margrit,60,3
-Probabilidade e Estatística,2,Adriane,30,1
-Sistemas e Modelagem,4,Adriane,60,3
-Eletrônica II,6,Letícia,90,3
-Legislação e Ética,2,Débora,30,0
-Microcontroladores,4,João,60,1
-Laboratório de Microcontroladores,2,João,30,0
-Rede de Computadores,4,Celso,60,2
-Sistemas de Tempo Real,4,Celso,60,1
-Eletromagnetismo Aplicado,4,Alexandre,60,0
-Fundamentos de Circuitos Integrados,4,João,60,2
-Comunicação de Dados,4,Adriane,60,1
-Barramentos e Programação de E/S,4,Margrit,60,0
-Instrumentação,4,Letícia,60,3
-Sistemas Distribuídos,4,Débora,60,1
-Economia para Engenharia,2,Adriane,30,2
-Sistemas de Controle,4,Dionísio,60,1
-Projeto de Sistemas Integrados I,4, João,60,1
-Laboratório de Sistemas Integrados I,2,João,30,1
-Processamento Digital de Sinais,4,Adriane,60,1
-Trabalho de Conclusão I,2,Celso,30,0
-Controle Digital de Processos,4,Dionísio,60,0
-Automação,4,Letícia,60,0
-Gestão e Empreendedorismo,4,Margrit,60,0
-Trabalho de Conclusão II,2,Celso,30,0
-Qualidade e Testes de Sistemas,4,Margrit,60,0
-Estágio Profissional Supervisionado,12,Celso,180,0
+﻿INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO,2,LETÍCIA,30,0
+EPISTEMOLOGIA,2,ROBERTO,30,1
+PRODUÇÃO TEXTUAL,4,MAGALI,60,0
+ÁLGEBRA LINEAR E GEOMETRIA ANALÍTICA,4,ROBERTO,60,8
+CÁLCULO I,4,LUCIANO,60,8
+ALGORITMOS E PROGRAMAÇÃO,4,MARGRIT,60,5
+LÓGICA PARA COMPUTAÇÃO,4,FABRÍCIA,60,5
+ARQUITETURA DE COMPUTADORES I,4,JOÃO,60,6
+ARQUITETURA DE COMPUTADORES II,4,DÉBORA,60,5
+CÁLCULO II,4,ROBERTO,60,7
+TÉCNICAS DIGITAIS,4,ADRIANE,60,3
+FÍSICA I,4,FERNANDO,60,4
+LABORATÓRIO DE FÍSICA I,2,FERNANDO,30,3
+ESTRUTURA DE DADOS,4,MARGRIT,60,4
+METODOLOGIA CIENTÍFICA,2,DÉBORA,30,0
+TECNOLOGIA AMBIENTE E SOCIEDADE,2,FABRÍCIA,30,0
+FÍSICA II,4,FERNANDO,60,3
+LABORATÓRIO DE FÍSICA II,2,FERNANDO,30,2
+CÁLCULO VETORIAL,4,ROBERTO,60,0
+CÁLCULO III,4,ROBERTO,60,6
+SISTEMAS DIGITAIS,4,JOÃO,60,0
+CIRCUITOS ELÉTRICOS I,4,ADRIANE,60,6
+ENGENHARIA DE SOFTWARE,4,FABRÍCIA,60,0
+FÍSICA III,4,FERNANDO,60,3
+LABORATÓRIO DE FÍSICA III,2,FERNANDO,30,2
+CIRCUITOS ELÉTRICOS II,4,ADRIANE,60,5
+CÁLCULO IV,4,ROBERTO,60,4
+MÉTODOS NUMÉRICOS,4,ROBERTO,60,4
+PROGRAMAÇÃO DE SISTEMAS,4,CELSO,60,0
+ORGANIZAÇÃO DE COMPUTADORES,4,DÉBORA,60,1
+MATERIAIS DE ENGENHARIA,4,DIONÍSIO,60,0
+ELETRÔNICA I,6,LETÍCIA,90,4
+TEORIA DA COMPUTAÇÃO,4,FABRÍCIA,60,0
+FÍSICA IV,4,FERNANDO,60,1
+LABORATÓRIO DE SISTEMAS OPERACIONAIS,2,MARGRIT,30,2
+SISTEMAS OPERACIONAIS,4,MARGRIT,60,3
+ESTATÍSTICA E PROBABILIDADE,2,ADRIANE,30,1
+SISTEMAS E MODELAGEM,4,ADRIANE,60,3
+ELETRÔNICA II,6,LETÍCIA,90,3
+LEGISLAÇÃO E ÉTICA,2,DÉBORA,30,0
+MICROCONTROLADORES,4,JOÃO,60,1
+LABORATÓRIO DE MICROCONTROLADORES,2,JOÃO,30,0
+REDES DE COMPUTADORES,4,CELSO,60,2
+SISTEMAS DE TEMPO REAL,4,CELSO,60,1
+ELETROMAGNETISMO APLICADO,4,ALEXANDRE,60,0
+FUNDAMENTOS DE CIRCUITOS INTEGRADOS,4,JOÃO,60,2
+COMUNICAÇÃO DE DADOS,4,ADRIANE,60,1
+BARRAMENTOS E PROGRAMAÇÃO DE E/S,4,MARGRIT,60,0
+INSTRUMENTAÇÃO,4,LETÍCIA,60,3
+SISTEMAS DISTRIBUÍDOS,4,DÉBORA,60,1
+ECONOMIA PARA ENGENHARIA,2,ADRIANE,30,2
+SISTEMAS DE CONTROLE,4,DIONÍSIO,60,1
+PROJETO DE SISTEMAS INTEGRADOS I,4, JOÃO,60,1
+LABORATÓRIO DE SISTEMAS INTEGRADOS I,2,JOÃO,30,1
+PROCESSAMENTO DIGITAL DE SINAIS,4,ADRIANE,60,1
+TRABALHO DE CONCLUSÃO I,2,CELSO,30,0
+CONTROLE DIGITAL DE PROCESSOS,4,DIONÍSIO,60,0
+AUTOMAÇÃO,4,LETÍCIA,60,0
+GESTÃO E EMPREENDEDORISMO,4,MARGRIT,60,0
+TRABALHO DE CONCLUSÃO II,2,CELSO,30,0
+QUALIDADE E TESTES DE SISTEMAS,4,MARGRIT,60,0
+ESTÁGIO PROFISSIONAL SUPERVISIONADO,12,CELSO,180,0

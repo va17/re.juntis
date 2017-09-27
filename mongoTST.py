@@ -10,9 +10,31 @@ def Menu():
 	print("\t4) Inserir Disciplina;")
 	print("\t5) Pesquisar Aluno;")
 	print("\t6) Pesquisar Disciplina;")
+	print("\t7 Aluno")
+	print("\t8 Disciplinas")
 	op = input("\nDigite uma das opções:")
-	print(op)
+	if op == "1":
+		list_Aluno()
+	elif op == "2":
+		list_Disciplinas()
+	elif op == "3":
+		print("3")
+	elif op == "4":
+		print("4")
+		open_Disciplinas()
+	elif op == "5":
+		print("5")
+	elif op == "6":	
+		print("6")
+	elif op == "7":
+		aluno_removeAll()
+	elif op == "8":
+		disciplina_removeAll()
+	else:	
+		print(op)
+		sys.exit(0)
 
+	Menu()	
 
 
 def connect_Mongo():

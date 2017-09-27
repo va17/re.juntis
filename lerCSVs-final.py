@@ -5,7 +5,7 @@ def gera_csvs():
 	lista = os.listdir("C:/Users/Dymytry/Desktop")# pega os nomes dos arquivos na pasta
 	csvs = [arq for arq in lista if arq.lower().endswith(".csv") and arq != 'disciplinas0.csv']# pega os nomes dos arquivos que são CSVs
 	curso = []
-	with open("C:/Users/Dymytry/Desktop/disciplinas0.csv",  "r", encoding="latin-1") as disciplinas:#Alterei esta linha
+	with open("C:/Users/Dymytry/Desktop/disciplinas0.csv",  "r", encoding="utf-8") as disciplinas:#Alterei esta linha
 		read = csv.reader(disciplinas)   
 		for linha in read:
 			curso.append(linha[0])
@@ -15,7 +15,7 @@ def gera_csvs():
 
 		nome_arq = csvs[x]
 		nome_arq_new_temp = csvs[x]
-		nome_arq_new = nome_arq_new_temp.replace('.csv','new.csv')# acrescenta um número no nome do aluno para não sobrescrever o arquivo original
+		nome_arq_new = nome_arq_new_temp.replace('.csv','-new.csv')# acrescenta um número no nome do aluno para não sobrescrever o arquivo original
 		target = open(nome_arq_new,"w",encoding="utf-8")
 		aprovadas = []
 		reprovadas = []
