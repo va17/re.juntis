@@ -19,6 +19,7 @@ def Menu():
 		list_Disciplinas()
 	elif op == "3":
 		print("3")
+		open_Aluno()
 	elif op == "4":
 		print("4")
 		open_Disciplinas()
@@ -112,7 +113,7 @@ def set_Arq():
 	global lista
 	lista = os.listdir("C:/Users/Dymytry/Desktop")# pega os nomes dos arquivos na pasta
 	global csvs
-	csvs = [arq for arq in lista if arq.lower().endswith(".csv") and arq != 'disciplinas0.csv']
+	csvs = [arq for arq in lista if arq.lower().endswith("-new.csv") and arq != 'disciplinas0.csv']
 
 def open_Aluno():
 	#set_Arq()
@@ -126,7 +127,7 @@ def open_Aluno():
 		#reprovadas = []
 		#cursando = []
 		#pendentes = []
-		with open(nome_arq_new, "r",encoding='latin-1') as arquivo:
+		with open(nome_arq, "r",encoding='utf-8') as arquivo:
 			print(arquivo)
 			reader = csv.reader(arquivo)   
 			cont = 0
@@ -148,30 +149,30 @@ def open_Aluno():
 						print(aluno)
 						#target.write(linha[i])
 						#target.write("\n")
-						cont += 1										
+						cont += 1											
 					i += 1
+			#sys.exit(0)		
 			arquivo.seek(0)
-
+			print("!!! AQUI 2 !!!")	
 			for linha in reader:
-				i=0
-				while(i < len(linha)):
-					print("AQUI")
-					print(linha[0])
-					if linha[2] == "A" or linha[2] == "B" or linha[2] == "C":
-						#target.write(linha[0])
-						#target.write(",")
-						#target.write(linha[2])
-						#target.write(",")
-						#target.write(linha[i-1])
-						#target.write("\n")
-						print(linha[0])	
-						print(linha[1])	
-						print(linha[2])
-						aprovadas.append(linha[2])
-						#print(aprovadas[i])
-					i += 1
-			#print(aprovadas)				
-			#Descomentar depois#insert_Aluno(aluno[0],aluno[1],aluno[2],aluno[5],aluno[4],aluno[3],aprovadas)			
+				if len(linha) < 3:
+					print("PULEI")
+				else:	
+					i=0
+					while(i < len(linha)):
+						if linha[i] == "A" or linha[i] == "B" or linha[i] == "C":
+							#target.write(linha[0])
+							#target.write(",")
+							#target.write(linha[2])
+							#target.write(",")
+							#target.write(linha[i-1])
+							#target.write("\n")
+							aprovadas.append(linha[i-1])
+							#print(aprovadas[i])
+						i += 1
+			print(aprovadas)
+			sys.exit(0)				
+			insert_Aluno(aluno[0],aluno[1],aluno[2],aluno[5],aluno[4],aluno[3],aprovadas)#Descomentar depois#			
 
 
 ##TESTES DAS FUNÇÕES CRIADAS##
