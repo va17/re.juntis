@@ -153,26 +153,46 @@ def open_Aluno():
 					i += 1
 			#sys.exit(0)		
 			arquivo.seek(0)
-			print("!!! AQUI 2 !!!")	
+			print("!!! AQUI 2 !!!")
+			d = {}
+			dlist = []	
 			for linha in reader:
 				if len(linha) < 3:
 					print("PULEI")
 				else:	
 					i=0
 					while(i < len(linha)):
+						#print("linha")
+						#print(i)
+						#print(linha[i])
 						if linha[i] == "A" or linha[i] == "B" or linha[i] == "C":
+							d['Cadeira'] = linha[i-1]
+							d['Conceito'] = linha[i]
+							dlist.append(d.copy())
+							print(d)
 							#target.write(linha[0])
 							#target.write(",")
 							#target.write(linha[2])
 							#target.write(",")
 							#target.write(linha[i-1])
 							#target.write("\n")
-							aprovadas.append(linha[i-1])
-							#print(aprovadas[i])
+							#aprova = [{linha[i-1],linha[i]}]
+							#print("TESTE CABULOSO!!!!")
+							#print(i)
+							#print(linha[i])
+							#print(i)
+							#print(linha[i-1])	
+							#print(i)
+							#print({linha[i-1],linha[i]})
+							#print(i)
+							#print("TESTE CABULOSO!!!!")
+							#aprovadas.append({linha[i-1],linha[i]})
+							#print(aprovadas)
 						i += 1
-			print(aprovadas)
-			sys.exit(0)				
-			insert_Aluno(aluno[0],aluno[1],aluno[2],aluno[5],aluno[4],aluno[3],aprovadas)#Descomentar depois#			
+			#print(aprovadas[1])
+			print(dlist)
+			#sys.exit(0)				
+			insert_Aluno(aluno[0],aluno[1],aluno[2],aluno[5],aluno[4],aluno[3],dlist)#Descomentar depois#			
 
 
 ##TESTES DAS FUNÇÕES CRIADAS##
