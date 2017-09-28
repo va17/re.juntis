@@ -10,8 +10,8 @@ def Menu():
 	print("\t4) Inserir Disciplina;")
 	print("\t5) Pesquisar Aluno;")
 	print("\t6) Pesquisar Disciplina;")
-	print("\t7 Aluno")
-	print("\t8 Disciplinas")
+	print("\t7) Remover Aluno")
+	print("\t8) Remover Disciplinas")
 	op = input("\nDigite uma das opções:")
 	if op == "1":
 		list_Aluno()
@@ -22,18 +22,20 @@ def Menu():
 	elif op == "4":
 		open_Disciplinas()
 	elif op == "5":
-		print("5")
 		opp = input("\nDigite o CPF do aluno:")
 		find_Aluno(opp)
 	elif op == "6":	
-		print("6")
+		opp = input("\nDigite o nome da disciplina:")
+		find_Disciplina(opp)
 	elif op == "7":
 		aluno_removeAll()
 	elif op == "8":
 		disciplina_removeAll()
-	else:	
-		print(op)
+	elif op == "0":
 		sys.exit(0)
+	else:	
+		print("Opção ",op," inválida")
+		#sys.exit(0)
 
 	Menu()	
 
@@ -46,6 +48,7 @@ def connect_Mongo():
 	global db_Disc
 	db_Disc = client.Discplinas 
 
+#Função que insere os alunos no banco;
 def insert_Aluno(nome,cpf,nasc,ingr,curso,fingr,aprov):
 	result = db.test.insert_one(
 		{
@@ -57,8 +60,9 @@ def insert_Aluno(nome,cpf,nasc,ingr,curso,fingr,aprov):
 			"Data Nasc"	:	nasc,
 			"Aprovadas"	:	aprov
 		})
-	print("Objeto inserido com sucesso!")
+	print(nome," inserido com sucesso!")
 
+#Função que insere as disciplinas no banco;
 def insert_Disciplina(nome,cred,horas,prio,semestre):
 	result = db_Disc.Discplinas.insert_one(
 		{
@@ -68,8 +72,9 @@ def insert_Disciplina(nome,cred,horas,prio,semestre):
 			"Prioridade"	:	prio,
 			"Semestre"		:	semestre
 		})
-	print("Objeto inserido com sucesso!")
+	print(nome," inserido com sucesso!")
 
+#Função para listar todos os alunos do banco;
 def list_Aluno():
 	cursor = db.test.find()
 	if cursor.count() == 0:
@@ -77,7 +82,9 @@ def list_Aluno():
 	else:	
 		for document in cursor:	
 			print(document)
+			print("\n")
 
+#Função para listar todos as disciplinas do banco;
 def list_Disciplinas():
 	cursor = db_Disc.Discplinas.find()
 	if cursor.count() == 0:
@@ -85,7 +92,9 @@ def list_Disciplinas():
 	else:	
 		for document in cursor:	
 			print(document)
+			print("\n")		
 
+#Função para pesquisar e exibir somente um aluno, devido a pesquisa por cpf;
 def find_Aluno(cpf):
 	cursor = db.test.find({"CPF" : cpf})
 	if cursor.count == 0:
@@ -94,17 +103,29 @@ def find_Aluno(cpf):
 		for document in cursor:
 			print(document)	
 
+#Função para pesquisar e exibir somente a disciplina pesquisada(precisa de reparos, retorna somente se o nome é exato);
 def find_Disciplina(nome):
-	cursor = db_Disc.Discplinas.find({"Nome"})	
+	cursor = db_Disc.Discplinas.find({"Nome" : nome})	
 
+#Função de limpeza do banco(apaga todos os dados, terá uma senha em cima dessa função xP);
 def aluno_removeAll():
-	db.test.remove()
-	print("BOOOM")			
+	opt = input("PASS:")
+	if opt == "alfa!1":
+		db.test.remove()
+		print("BOOOM")
+	else:
+		print("Senha inválida!")				
 
+#Função de limpeza do banco(apaga todos os dados, terá uma senha em cima dessa função xP);
 def disciplina_removeAll():
-	db_Disc.Discplinas.remove()
-	print("BOOOM")
+	opt = input("PASS:")
+	if opt == "alfa!1":
+		db_Disc.Discplinas.remove()
+		print("BOOOM")
+	else:
+		print("Senha inválida!")	
 
+#Função que abre o csv de disciplinas do curso e já insere no banco;
 def open_Disciplinas():
 	with open("C:/Users/Dymytry/Desktop/disciplinas0.csv",  "r", encoding="utf-8") as disciplinas:
 		read = csv.reader(disciplinas)   
@@ -118,6 +139,7 @@ def set_Arq():
 	global csvs
 	csvs = [arq for arq in lista if arq.lower().endswith("-new.csv") and arq != 'disciplinas0.csv']
 
+#Função que abre os csvs de alunos do curso e já insere no banco;
 def open_Aluno():
 	#set_Arq()
 	for x in range(0,len(csvs)):# para cada arquivo, gerar um novo arquivo somente com o que interessa
@@ -142,7 +164,6 @@ def open_Aluno():
 						cont += 1											
 					i += 1
 			arquivo.seek(0)
-			print("!!! AQUI 2 !!!")
 			d = {}
 			dlist = []	
 			for linha in reader:
@@ -165,15 +186,4 @@ def open_Aluno():
 connect_Mongo()
 set_Arq()
 Menu()
-#insert_Aluno("0","0","0","0","0","0","0")
-#aluno_removeAll()
-#open_Disciplinas()
-#open_Aluno()
-#list_Aluno()
-
-#list_Disciplinas()
-#disciplina_removeAll()
-#list_Disciplinas()
-#db2.test2.remove()
-#list_Disciplinas()
 ##TESTES DAS FUNÇÕES CRIADAS##
