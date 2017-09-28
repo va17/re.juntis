@@ -59,13 +59,14 @@ def insert_Aluno(nome,cpf,nasc,ingr,curso,fingr,aprov):
 		})
 	print("Objeto inserido com sucesso!")
 
-def insert_Disciplina(nome,cred,horas,prio):
+def insert_Disciplina(nome,cred,horas,prio,semestre):
 	result = db_Disc.Discplinas.insert_one(
 		{
 			"Nome"			:	nome,
 			"Créditos"		:	cred,
 			"CH"			:	horas,
-			"Prioridade"	:	prio
+			"Prioridade"	:	prio,
+			"Semestre"		:	semestre
 		})
 	print("Objeto inserido com sucesso!")
 
@@ -108,7 +109,8 @@ def open_Disciplinas():
 	with open("C:/Users/Dymytry/Desktop/disciplinas0.csv",  "r", encoding="utf-8") as disciplinas:
 		read = csv.reader(disciplinas)   
 		for linha in read:
-			insert_Disciplina(linha[0],linha[1],linha[3],linha[4])				
+			linha[0] = linha[0].replace('\ufeff','')
+			insert_Disciplina(linha[0],linha[1],linha[3],linha[4],linha[5])				
 
 def set_Arq():
 	global lista
