@@ -221,15 +221,12 @@ def ensure_preferences(alunos, semestre):
 
 
 def current_year_semester():
-    month = current_month()
+    today = str(datetime.date.today());
+    month = int(today[5:7]);
     if(month>7):
         return 2
     else:
         return 1
-
-
-def current_month():
-    datetime.datetime.now()
 
 
 def generate_preferences(aluno, ids_disciplinas, semester):

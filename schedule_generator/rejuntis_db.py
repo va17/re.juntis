@@ -95,11 +95,10 @@ def get_disciplinas(filter=0):
             {'id': 61, 'nome': 'Estágio Profissional Supervisionado', 'semestre': 10, 'creditos': 12, 'prioridade': 0}]
     i = 0
     while i < len(resp):
-        if (filter == 1) and (i % 2 == 1):
-            print i
-            resp.pop(i)
-        elif (filter == 2) and (i % 2 == 0):
-            resp.pop(i)
+        if (filter == 1) and (resp[i]['semestre'] % 2 != 1):
+            del resp[i]
+        elif (filter == 2) and (resp[i]['semestre'] % 2 != 0):
+            del resp[i]
         i += 1
     return resp
 
