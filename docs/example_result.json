@@ -1,0 +1,3152 @@
+[
+  {
+    "conflitos": 0, 
+    "schedule": [
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 1
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 1
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 1
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 1
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 1
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 1
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 1
+      }, 
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 2
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 2
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 2
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 2
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 2
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 2
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 2
+      }, 
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 3
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 3
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 3
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 3
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 3
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 3
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 3
+      }, 
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 4
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 4
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 4
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 4
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 4
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 4
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 4
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 5
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 5
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 5
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 5
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 5
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 6
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 6
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 6
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 6
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 6
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 7
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 7
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 7
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 7
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 7
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 8
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 8
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 8
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 8
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 8
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 13
+      }, 
+      {
+        "id": 40, 
+        "nome": "Legisla\u00e7\u00e3o e \u00e9tica", 
+        "semestre": 6, 
+        "time": 13
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 14
+      }, 
+      {
+        "id": 40, 
+        "nome": "Legisla\u00e7\u00e3o e \u00e9tica", 
+        "semestre": 6, 
+        "time": 14
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 15
+      }, 
+      {
+        "id": 37, 
+        "nome": "Probabilidade e Estat\u00edstica", 
+        "semestre": 5, 
+        "time": 15
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 16
+      }, 
+      {
+        "id": 37, 
+        "nome": "Probabilidade e Estat\u00edstica", 
+        "semestre": 5, 
+        "time": 16
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 17
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 17
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 17
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 17
+      }, 
+      {
+        "id": 43, 
+        "nome": "Rede de Computadores", 
+        "semestre": 6, 
+        "time": 17
+      }, 
+      {
+        "id": 1, 
+        "nome": "Epistemologia", 
+        "semestre": 1, 
+        "time": 17
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 17
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 18
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 18
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 18
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 18
+      }, 
+      {
+        "id": 43, 
+        "nome": "Rede de Computadores", 
+        "semestre": 6, 
+        "time": 18
+      }, 
+      {
+        "id": 1, 
+        "nome": "Epistemologia", 
+        "semestre": 1, 
+        "time": 18
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 18
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 19
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 19
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 19
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 19
+      }, 
+      {
+        "id": 43, 
+        "nome": "Rede de Computadores", 
+        "semestre": 6, 
+        "time": 19
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 19
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 20
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 20
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 20
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 20
+      }, 
+      {
+        "id": 43, 
+        "nome": "Rede de Computadores", 
+        "semestre": 6, 
+        "time": 20
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 20
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 25
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 25
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 26
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 26
+      }, 
+      {
+        "id": 51, 
+        "nome": "Economia para Engenharia", 
+        "semestre": 7, 
+        "time": 27
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 27
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 27
+      }, 
+      {
+        "id": 51, 
+        "nome": "Economia para Engenharia", 
+        "semestre": 7, 
+        "time": 28
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 28
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 28
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 29
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 29
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 29
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 29
+      }, 
+      {
+        "id": 35, 
+        "nome": "Laborat\u00f3rio de Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 29
+      }, 
+      {
+        "id": 42, 
+        "nome": "Laborat\u00f3rio de Microcontroladores", 
+        "semestre": 6, 
+        "time": 29
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 30
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 30
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 30
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 30
+      }, 
+      {
+        "id": 35, 
+        "nome": "Laborat\u00f3rio de Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 30
+      }, 
+      {
+        "id": 42, 
+        "nome": "Laborat\u00f3rio de Microcontroladores", 
+        "semestre": 6, 
+        "time": 30
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 31
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 31
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 31
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 31
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 32
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 32
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 32
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 32
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 37
+      }, 
+      {
+        "id": 8, 
+        "nome": "Introdu\u00e7\u00e3o \u00e0 Engenharia de Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 37
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 37
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 37
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 37
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 38
+      }, 
+      {
+        "id": 8, 
+        "nome": "Introdu\u00e7\u00e3o \u00e0 Engenharia de Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 38
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 38
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 38
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 38
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 39
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 39
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 39
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 39
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 40
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 40
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 40
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 40
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 41
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 41
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 41
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 41
+      }, 
+      {
+        "id": 54, 
+        "nome": "Laborat\u00f3rio de Sistemas Integrados", 
+        "semestre": 8, 
+        "time": 41
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 41
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 42
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 42
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 42
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 42
+      }, 
+      {
+        "id": 54, 
+        "nome": "Laborat\u00f3rio de Sistemas Integrados", 
+        "semestre": 8, 
+        "time": 42
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 42
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 43
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 43
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 43
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 43
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 43
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 44
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 44
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 44
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 44
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 44
+      }, 
+      {
+        "id": 18, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 49
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 49
+      }, 
+      {
+        "id": 18, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 50
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 50
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 51
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 52
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 53
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 53
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 53
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 53
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 54
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 54
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 54
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 54
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 55
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 55
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 55
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 55
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 56
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 56
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 56
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 56
+      }
+    ], 
+    "schedule_id": 2
+  }, 
+  {
+    "conflitos": 0, 
+    "schedule": [
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 1
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 1
+      }, 
+      {
+        "id": 35, 
+        "nome": "Laborat\u00f3rio de Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 1
+      }, 
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 2
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 2
+      }, 
+      {
+        "id": 35, 
+        "nome": "Laborat\u00f3rio de Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 2
+      }, 
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 3
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 3
+      }, 
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 4
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 4
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 5
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 5
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 5
+      }, 
+      {
+        "id": 8, 
+        "nome": "Introdu\u00e7\u00e3o \u00e0 Engenharia de Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 5
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 5
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 5
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 5
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 5
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 6
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 6
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 6
+      }, 
+      {
+        "id": 8, 
+        "nome": "Introdu\u00e7\u00e3o \u00e0 Engenharia de Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 6
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 6
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 6
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 6
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 6
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 7
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 7
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 7
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 7
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 7
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 7
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 7
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 8
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 8
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 8
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 8
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 8
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 8
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 8
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 13
+      }, 
+      {
+        "id": 40, 
+        "nome": "Legisla\u00e7\u00e3o e \u00e9tica", 
+        "semestre": 6, 
+        "time": 13
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 13
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 13
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 14
+      }, 
+      {
+        "id": 40, 
+        "nome": "Legisla\u00e7\u00e3o e \u00e9tica", 
+        "semestre": 6, 
+        "time": 14
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 14
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 14
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 15
+      }, 
+      {
+        "id": 37, 
+        "nome": "Probabilidade e Estat\u00edstica", 
+        "semestre": 5, 
+        "time": 15
+      }, 
+      {
+        "id": 54, 
+        "nome": "Laborat\u00f3rio de Sistemas Integrados", 
+        "semestre": 8, 
+        "time": 15
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 15
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 15
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 16
+      }, 
+      {
+        "id": 37, 
+        "nome": "Probabilidade e Estat\u00edstica", 
+        "semestre": 5, 
+        "time": 16
+      }, 
+      {
+        "id": 54, 
+        "nome": "Laborat\u00f3rio de Sistemas Integrados", 
+        "semestre": 8, 
+        "time": 16
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 16
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 16
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 17
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 17
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 17
+      }, 
+      {
+        "id": 29, 
+        "nome": "Programa\u00e7\u00e3o de Sistemas", 
+        "semestre": 4, 
+        "time": 17
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 17
+      }, 
+      {
+        "id": 42, 
+        "nome": "Laborat\u00f3rio de Microcontroladores", 
+        "semestre": 6, 
+        "time": 17
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 18
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 18
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 18
+      }, 
+      {
+        "id": 29, 
+        "nome": "Programa\u00e7\u00e3o de Sistemas", 
+        "semestre": 4, 
+        "time": 18
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 18
+      }, 
+      {
+        "id": 42, 
+        "nome": "Laborat\u00f3rio de Microcontroladores", 
+        "semestre": 6, 
+        "time": 18
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 19
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 19
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 19
+      }, 
+      {
+        "id": 29, 
+        "nome": "Programa\u00e7\u00e3o de Sistemas", 
+        "semestre": 4, 
+        "time": 19
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 19
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 20
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 20
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 20
+      }, 
+      {
+        "id": 29, 
+        "nome": "Programa\u00e7\u00e3o de Sistemas", 
+        "semestre": 4, 
+        "time": 20
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 20
+      }, 
+      {
+        "id": 18, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 25
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 25
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 25
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 25
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 25
+      }, 
+      {
+        "id": 18, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 26
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 26
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 26
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 26
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 26
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 27
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 27
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 27
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 27
+      }, 
+      {
+        "id": 1, 
+        "nome": "Epistemologia", 
+        "semestre": 1, 
+        "time": 27
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 28
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 28
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 28
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 28
+      }, 
+      {
+        "id": 1, 
+        "nome": "Epistemologia", 
+        "semestre": 1, 
+        "time": 28
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 29
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 29
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 29
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 29
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 30
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 30
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 30
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 30
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 31
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 31
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 31
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 31
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 32
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 32
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 32
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 32
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 37
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 37
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 37
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 37
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 37
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 38
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 38
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 38
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 38
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 38
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 39
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 39
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 39
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 39
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 39
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 40
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 40
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 40
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 40
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 40
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 41
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 41
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 41
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 41
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 41
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 42
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 42
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 42
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 42
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 42
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 43
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 43
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 43
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 43
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 43
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 44
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 44
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 44
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 44
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 44
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 49
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 50
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 51
+      }, 
+      {
+        "id": 51, 
+        "nome": "Economia para Engenharia", 
+        "semestre": 7, 
+        "time": 51
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 52
+      }, 
+      {
+        "id": 51, 
+        "nome": "Economia para Engenharia", 
+        "semestre": 7, 
+        "time": 52
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 53
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 53
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 53
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 54
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 54
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 54
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 55
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 55
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 55
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 56
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 56
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 56
+      }
+    ], 
+    "schedule_id": 3
+  }, 
+  {
+    "conflitos": 0, 
+    "schedule": [
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 1
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 1
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 1
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 1
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 1
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 1
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 1
+      }, 
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 2
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 2
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 2
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 2
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 2
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 2
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 2
+      }, 
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 3
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 3
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 3
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 3
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 3
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 3
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 3
+      }, 
+      {
+        "id": 60, 
+        "nome": "Qualidade e Testes de Sistemas", 
+        "semestre": 10, 
+        "time": 4
+      }, 
+      {
+        "id": 20, 
+        "nome": "C\u00e1lculo 3", 
+        "semestre": 3, 
+        "time": 4
+      }, 
+      {
+        "id": 45, 
+        "nome": "Eletromagnetismo Aplicado", 
+        "semestre": 7, 
+        "time": 4
+      }, 
+      {
+        "id": 31, 
+        "nome": "Materiais de Engenharia", 
+        "semestre": 5, 
+        "time": 4
+      }, 
+      {
+        "id": 38, 
+        "nome": "Sistemas e Modelagem", 
+        "semestre": 6, 
+        "time": 4
+      }, 
+      {
+        "id": 53, 
+        "nome": "Projeto de Sistemas Integrados 1", 
+        "semestre": 8, 
+        "time": 4
+      }, 
+      {
+        "id": 3, 
+        "nome": "\u00c1lgebra Linear e Geometria Anal\u00edtica", 
+        "semestre": 1, 
+        "time": 4
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 5
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 5
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 5
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 5
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 5
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 6
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 6
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 6
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 6
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 6
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 7
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 7
+      }, 
+      {
+        "id": 8, 
+        "nome": "Introdu\u00e7\u00e3o \u00e0 Engenharia de Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 7
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 7
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 7
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 7
+      }, 
+      {
+        "id": 21, 
+        "nome": "Sistemas Digitais", 
+        "semestre": 3, 
+        "time": 8
+      }, 
+      {
+        "id": 48, 
+        "nome": "Barramentos e Programa\u00e7\u00e3o de E/S", 
+        "semestre": 7, 
+        "time": 8
+      }, 
+      {
+        "id": 8, 
+        "nome": "Introdu\u00e7\u00e3o \u00e0 Engenharia de Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 8
+      }, 
+      {
+        "id": 25, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 8
+      }, 
+      {
+        "id": 34, 
+        "nome": "F\u00edsica 4", 
+        "semestre": 5, 
+        "time": 8
+      }, 
+      {
+        "id": 41, 
+        "nome": "Microcontroladores", 
+        "semestre": 6, 
+        "time": 8
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 13
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 13
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 13
+      }, 
+      {
+        "id": 42, 
+        "nome": "Laborat\u00f3rio de Microcontroladores", 
+        "semestre": 6, 
+        "time": 13
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 14
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 14
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 14
+      }, 
+      {
+        "id": 42, 
+        "nome": "Laborat\u00f3rio de Microcontroladores", 
+        "semestre": 6, 
+        "time": 14
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 15
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 15
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 15
+      }, 
+      {
+        "id": 37, 
+        "nome": "Probabilidade e Estat\u00edstica", 
+        "semestre": 5, 
+        "time": 15
+      }, 
+      {
+        "id": 49, 
+        "nome": "Instrumenta\u00e7\u00e3o", 
+        "semestre": 7, 
+        "time": 16
+      }, 
+      {
+        "id": 57, 
+        "nome": "Automa\u00e7\u00e3o", 
+        "semestre": 9, 
+        "time": 16
+      }, 
+      {
+        "id": 27, 
+        "nome": "C\u00e1lculo 4", 
+        "semestre": 4, 
+        "time": 16
+      }, 
+      {
+        "id": 37, 
+        "nome": "Probabilidade e Estat\u00edstica", 
+        "semestre": 5, 
+        "time": 16
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 17
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 17
+      }, 
+      {
+        "id": 43, 
+        "nome": "Rede de Computadores", 
+        "semestre": 6, 
+        "time": 17
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 17
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 17
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 18
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 18
+      }, 
+      {
+        "id": 43, 
+        "nome": "Rede de Computadores", 
+        "semestre": 6, 
+        "time": 18
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 18
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 18
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 19
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 19
+      }, 
+      {
+        "id": 43, 
+        "nome": "Rede de Computadores", 
+        "semestre": 6, 
+        "time": 19
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 19
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 19
+      }, 
+      {
+        "id": 17, 
+        "nome": "F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 20
+      }, 
+      {
+        "id": 26, 
+        "nome": "Circuitos El\u00e9tricos 2", 
+        "semestre": 4, 
+        "time": 20
+      }, 
+      {
+        "id": 43, 
+        "nome": "Rede de Computadores", 
+        "semestre": 6, 
+        "time": 20
+      }, 
+      {
+        "id": 52, 
+        "nome": "Sistemas de Controle", 
+        "semestre": 8, 
+        "time": 20
+      }, 
+      {
+        "id": 10, 
+        "nome": "C\u00e1lculo 2", 
+        "semestre": 2, 
+        "time": 20
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 25
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 25
+      }, 
+      {
+        "id": 35, 
+        "nome": "Laborat\u00f3rio de Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 25
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 25
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 25
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 26
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 26
+      }, 
+      {
+        "id": 35, 
+        "nome": "Laborat\u00f3rio de Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 26
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 26
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 26
+      }, 
+      {
+        "id": 51, 
+        "nome": "Economia para Engenharia", 
+        "semestre": 7, 
+        "time": 27
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 27
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 27
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 27
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 27
+      }, 
+      {
+        "id": 51, 
+        "nome": "Economia para Engenharia", 
+        "semestre": 7, 
+        "time": 28
+      }, 
+      {
+        "id": 58, 
+        "nome": "Gest\u00e3o e Empreendedorismo", 
+        "semestre": 9, 
+        "time": 28
+      }, 
+      {
+        "id": 30, 
+        "nome": "Organiza\u00e7\u00e3o de Computadores", 
+        "semestre": 4, 
+        "time": 28
+      }, 
+      {
+        "id": 44, 
+        "nome": "Sistemas de Tempo Real", 
+        "semestre": 6, 
+        "time": 28
+      }, 
+      {
+        "id": 55, 
+        "nome": "Processamento Digital de Sinais", 
+        "semestre": 8, 
+        "time": 28
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 29
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 29
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 29
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 30
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 30
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 30
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 31
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 31
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 31
+      }, 
+      {
+        "id": 47, 
+        "nome": "Comunica\u00e7\u00e3o de Dados", 
+        "semestre": 7, 
+        "time": 32
+      }, 
+      {
+        "id": 6, 
+        "nome": "L\u00f3gica para Computa\u00e7\u00e3o", 
+        "semestre": 1, 
+        "time": 32
+      }, 
+      {
+        "id": 36, 
+        "nome": "Sistemas Operacionais", 
+        "semestre": 5, 
+        "time": 32
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 37
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 37
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 37
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 38
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 38
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 38
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 39
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 39
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 39
+      }, 
+      {
+        "id": 24, 
+        "nome": "F\u00edsica 3", 
+        "semestre": 4, 
+        "time": 40
+      }, 
+      {
+        "id": 33, 
+        "nome": "Teoria da Computa\u00e7\u00e3o", 
+        "semestre": 5, 
+        "time": 40
+      }, 
+      {
+        "id": 2, 
+        "nome": "Produ\u00e7\u00e3o Textual", 
+        "semestre": 1, 
+        "time": 40
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 41
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 41
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 41
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 41
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 41
+      }, 
+      {
+        "id": 54, 
+        "nome": "Laborat\u00f3rio de Sistemas Integrados", 
+        "semestre": 8, 
+        "time": 41
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 41
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 42
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 42
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 42
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 42
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 42
+      }, 
+      {
+        "id": 54, 
+        "nome": "Laborat\u00f3rio de Sistemas Integrados", 
+        "semestre": 8, 
+        "time": 42
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 42
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 43
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 43
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 43
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 43
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 43
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 43
+      }, 
+      {
+        "id": 22, 
+        "nome": "Circuitos El\u00e9tricos 1", 
+        "semestre": 3, 
+        "time": 44
+      }, 
+      {
+        "id": 50, 
+        "nome": "Sistemas Distribu\u00eddos", 
+        "semestre": 7, 
+        "time": 44
+      }, 
+      {
+        "id": 28, 
+        "nome": "M\u00e9todos Num\u00e9ricos", 
+        "semestre": 4, 
+        "time": 44
+      }, 
+      {
+        "id": 32, 
+        "nome": "Eletr\u00f4nica 1", 
+        "semestre": 5, 
+        "time": 44
+      }, 
+      {
+        "id": 39, 
+        "nome": "Eletr\u00f4nica 2", 
+        "semestre": 6, 
+        "time": 44
+      }, 
+      {
+        "id": 9, 
+        "nome": "Arquitetura de Computadores 2", 
+        "semestre": 2, 
+        "time": 44
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 49
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 49
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 49
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 50
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 50
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 50
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 51
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 51
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 51
+      }, 
+      {
+        "id": 40, 
+        "nome": "Legisla\u00e7\u00e3o e \u00e9tica", 
+        "semestre": 6, 
+        "time": 51
+      }, 
+      {
+        "id": 19, 
+        "nome": "C\u00e1lculo Vetorial", 
+        "semestre": 3, 
+        "time": 52
+      }, 
+      {
+        "id": 46, 
+        "nome": "Fundamentos de Circuitos Integrados", 
+        "semestre": 7, 
+        "time": 52
+      }, 
+      {
+        "id": 7, 
+        "nome": "Arquitetura de Computadores 1", 
+        "semestre": 1, 
+        "time": 52
+      }, 
+      {
+        "id": 40, 
+        "nome": "Legisla\u00e7\u00e3o e \u00e9tica", 
+        "semestre": 6, 
+        "time": 52
+      }, 
+      {
+        "id": 18, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 53
+      }, 
+      {
+        "id": 18, 
+        "nome": "Laborat\u00f3rio de F\u00edsica 2", 
+        "semestre": 3, 
+        "time": 54
+      }, 
+      {
+        "id": 1, 
+        "nome": "Epistemologia", 
+        "semestre": 1, 
+        "time": 55
+      }, 
+      {
+        "id": 1, 
+        "nome": "Epistemologia", 
+        "semestre": 1, 
+        "time": 56
+      }
+    ], 
+    "schedule_id": 4
+  }
+]
