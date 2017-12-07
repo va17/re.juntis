@@ -32,17 +32,18 @@ from prettytable import PrettyTable
 import make_csv
 
 DISCIPLINAS_SEM_HORARIO = [56, 59, 61]
+DISCIPLINAS_PRIMEIRO_SEMESTRE = [1,2,3,4,5,6,7,8]
 ENABLE_LOGS = False
 
 def run(Filename, Num, RandNum, semestre, csv_enabled, pretty_table_enabled):
     start_time = time.time()
     alunos = rejuntis_db.get_alunos()
     professores = rejuntis_db.get_professores()
-    disciplinas = rejuntis_db.get_disciplinas()
-    disciplinas_semestre = rejuntis_db.get_disciplinas(filter=semestre)
+    disciplinas_semestre = rejuntis_db.get_disciplinas()
+    # disciplinas_semestre = rejuntis_db.get_disciplinas(filter=semestre)
     disciplinas_semestre = add_time_disciplina(disciplinas_semestre, professores)
     alunos = ensure_preferences(alunos, semestre)
-    poll_result = poll(disciplinas_semestre, alunos)
+    poll_result = poll(disciplinas_semestre, alunos, semestre)
     clear_result = [item for item in poll_result if item['votos'] > 0]
     ordered_result = sorted(clear_result, key=operator.itemgetter('votos'), reverse=True)
     creditos_semestre = get_creditos_semestre(professores)
@@ -183,11 +184,14 @@ def get_total_creditos(disciplinas):
     return acc
 
 
-def poll(disciplinas, alunos):
+def poll(disciplinas, alunos, semestre):
     acc = []
     for d in disciplinas:
         id = d['id']
-        d['votos'] = 0
+        if (semestre == 1) and (d['id'] in DISCIPLINAS_PRIMEIRO_SEMESTRE):
+            d['votos'] = 100
+        else:
+            d['votos'] = 0
         for aluno in alunos:
             semestre_aluno = aluno['semestre']
             porcentagem_aluno = aluno['porcentagem']

@@ -4,6 +4,7 @@
 import operator
 import csv
 from prettytable import PrettyTable
+from unicodedata import normalize
 
 def write_csv(Schedules, csv_enabled, pretty_table_enabled, CsvFilename = 'result.csv', PrettyTableFilename='result.txt'):
     if csv_enabled or pretty_table_enabled:
@@ -84,4 +85,8 @@ def write_csv_impl(Filename, column1, column2, columns):
     with open(Filename, "w") as output:
         writer = csv.writer(output, lineterminator='\n', dialect='excel')
         for val in csv_data:
-            writer.writerow(val)
+            writer.writerow([remover_acentos(v) for v in val])
+
+
+def remover_acentos(txt, codif='utf-8'):
+    return normalize('NFKD', txt.decode(codif)).encode('ASCII','ignore')

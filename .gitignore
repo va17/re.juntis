@@ -104,3 +104,4 @@ ENV/
 *.json
 *.log
 *.csv
+*.txt

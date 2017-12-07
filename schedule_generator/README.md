@@ -31,10 +31,11 @@ rejuntis_db (atualmente usando dados "mockados"), PrettyTable, json, csv.
 
 ## TODOs:
 
-* Considerar que uma disciplina pode ter mais de um professor possível;
-* Adicionar condicionais de laboratório, salas de aula, etc;
-* Gerar lista de preferencias (alunos) considerando hierarquia das disciplinas;
-* Garantir funcionamento do gerador de preferências dos alunos com lista de disciplinas feitas (testar, já implementado);
-* Garantir disciplinas do primeiro semestre se semestre atual = 1;
-* Gerenciar disciplinas eletivas;
-* Linkar com UI e BD.
+- [ ] Considerar que uma disciplina pode ter mais de um professor possível;
+- [ ] Adicionar condicionais de laboratório, salas de aula, etc;
+- [ ] Gerar lista de preferencias (alunos) considerando hierarquia das disciplinas;
+- [ ] Garantir funcionamento do gerador de preferências dos alunos com lista de disciplinas feitas (testar, já implementado);
+- [x] Garantir disciplinas do primeiro semestre se semestre atual = 1;
+- [ ] Gerenciar disciplinas eletivas;
+- [x] Gerar CSV
+- [ ] Linkar com UI e BD.

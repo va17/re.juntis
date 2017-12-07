@@ -32,7 +32,7 @@ def get_professores():
 
 
 def get_disciplinas(filter=0):
-    return [{'id': 1, 'nome': 'Epistemologia', 'semestre': 1, 'creditos': 2, 'prioridade': 1},
+    resp = [{'id': 1, 'nome': 'Epistemologia', 'semestre': 1, 'creditos': 2, 'prioridade': 1},
             {'id': 2, 'nome': 'Produção Textual', 'semestre': 1, 'creditos': 4,'prioridade': 0},
             {'id': 3, 'nome': 'Álgebra Linear e Geometria Analítica', 'semestre': 1, 'creditos': 4,'prioridade': 8},
             {'id': 4, 'nome': 'Cálculo 1', 'semestre': 1, 'creditos': 4,'prioridade': 8},
@@ -93,6 +93,15 @@ def get_disciplinas(filter=0):
             {'id': 59, 'nome': 'Trabalho de Conclusão 2', 'semestre': 10, 'creditos': 2, 'prioridade': 0},
             {'id': 60, 'nome': 'Qualidade e Testes de Sistemas', 'semestre': 10, 'creditos': 4, 'prioridade': 0},
             {'id': 61, 'nome': 'Estágio Profissional Supervisionado', 'semestre': 10, 'creditos': 12, 'prioridade': 0}]
+    i = 0
+    while i < len(resp):
+        if (filter == 1) and (i % 2 == 1):
+            print i
+            resp.pop(i)
+        elif (filter == 2) and (i % 2 == 0):
+            resp.pop(i)
+        i += 1
+    return resp
 
 
 def get_alunos():
@@ -114,8 +123,8 @@ def get_alunos():
             {'id': 16, 'nome': 'Denis', 'semestre': 7, 'porcentagem': 65, 'preferencias': [52,53,54,55]},
             {'id': 17, 'nome': 'Lorenzo', 'semestre': 8, 'porcentagem': 75, 'preferencias': [56,57,58]},
             {'id': 18, 'nome': 'Kenny', 'semestre': 8, 'porcentagem': 75, 'preferencias': [56,57,58]},
-            {'id': 19, 'nome': 'Juliana', 'semestre': 1, 'porcentagem': 5, 'preferencias': [9,10,11,12,13,14,15,16]},
-            {'id': 20, 'nome': 'Adão', 'semestre': 1, 'porcentagem': 5, 'preferencias': [1,2,3,4,5,6,9,10]},
+            {'id': 19, 'nome': 'Juliana', 'semestre': 3, 'porcentagem': 5, 'preferencias': [9,10,11,12,13,14,15,16]},
+            {'id': 20, 'nome': 'Adão', 'semestre': 2, 'porcentagem': 5, 'preferencias': [9,10]},
             {'id': 21, 'nome': 'Eva', 'semestre': 2, 'porcentagem': 15, 'preferencias': [17,18,19,20,21,22,23]},
             {'id': 22, 'nome': 'Caroline', 'semestre': 2, 'porcentagem': 15, 'preferencias': [17,18,19,20,21,22,23]},
             {'id': 23, 'nome': 'Maurício', 'semestre': 2, 'porcentagem': 15, 'preferencias': [17,18,19,20,21,22,23]},
@@ -135,14 +144,14 @@ def get_alunos():
             {'id': 37, 'nome': 'Pedro', 'semestre': 10, 'porcentagem': 95, 'preferencias': [59,60,61]},
             {'id': 38, 'nome': 'Israel', 'semestre': 10, 'porcentagem': 95, 'preferencias': [59,60,61]},
             {'id': 39, 'nome': 'Aline', 'semestre': 10, 'porcentagem': 95, 'preferencias': [59,60,61]},
-            {'id': 40, 'nome': 'Isabel', 'semestre': 1, 'porcentagem': 5, 'preferencias': [1,2,3,4,5,6,7,8]},
+            {'id': 40, 'nome': 'Isabel', 'semestre': 2, 'porcentagem': 5, 'preferencias': [6,7,8]},
             {'id': 41, 'nome': 'Ismael', 'semestre': 2, 'porcentagem': 15, 'preferencias': [17,18,19,20,21,22,23]},
             {'id': 42, 'nome': 'Emerson', 'semestre': 2, 'porcentagem': 15, 'preferencias': [17,18,19,20,21,22,23]},
             {'id': 43, 'nome': 'Vitor K', 'semestre': 2, 'porcentagem': 15, 'preferencias': [17,18,19,20,21,22,23]},
             {'id': 44, 'nome': 'Vitor D', 'semestre': 6, 'porcentagem': 55, 'preferencias': [45,46,47,48,49,50,51]},
             {'id': 45, 'nome': 'Leonardo', 'semestre': 5, 'porcentagem': 45, 'preferencias': [38,39,40,41,42,43,44]},
             {'id': 46, 'nome': 'Patrícia', 'semestre': 3, 'porcentagem': 23, 'preferencias': [24,25,26,27,28,29,30]}, 
-            {'id': 47, 'nome': 'Elisa', 'semestre': 1, 'porcentagem': 5, 'preferencias': [1,2,3,4,5,6,7,8]},
+            {'id': 47, 'nome': 'Elisa', 'semestre': 2, 'porcentagem': 5, 'preferencias': [1,2,3,4,5,6,7,8]},
             {'id': 48, 'nome': 'Robson', 'semestre': 5, 'porcentagem': 45, 'preferencias': [38,39,40,41,42,43,44]},
             {'id': 49, 'nome': 'Alison', 'semestre': 4, 'porcentagem': 35, 'preferencias': [31,32,33,34,35,36,37]},
             {'id': 50, 'nome': 'Rodrigo', 'semestre': 4, 'porcentagem': 35, 'preferencias': [31,32,33,34,35,36,37]},
@@ -152,7 +161,7 @@ def get_alunos():
             {'id': 54, 'nome': 'Anderson', 'semestre': 3, 'porcentagem': 25, 'preferencias': [24,25,26,27,28,29,30]},
             {'id': 55, 'nome': 'Jeferson', 'semestre': 9, 'porcentagem': 85, 'preferencias': [59,60,61]},
             {'id': 56, 'nome': 'Fabiano', 'semestre': 7, 'porcentagem': 65, 'preferencias': [52,53,54,55]},
-            {'id': 57, 'nome': 'Fabiana', 'semestre': 1, 'porcentagem': 5, 'preferencias': [1,2,3,4,5,6,7,8]},
+            {'id': 57, 'nome': 'Fabiana', 'semestre': 2, 'porcentagem': 5, 'preferencias': [1,2,3]},
             {'id': 58, 'nome': 'Maria', 'semestre': 8, 'porcentagem': 75, 'preferencias': [56,57,58]},
             {'id': 59, 'nome': 'José', 'semestre': 8, 'porcentagem': 75, 'preferencias': [56,57,58]},
             {'id': 60, 'nome': 'Daniela', 'semestre': 2, 'porcentagem': 15, 'preferencias': [17,18,19,20,21,22,23]}]
