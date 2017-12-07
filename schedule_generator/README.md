@@ -21,6 +21,10 @@ $> python generate_schedule.py
 
 `-s` : Calcula calendário para um dado semestre do ano (1 ou 2). Default: semestre atual. Ex: ``` $> python generate_schedule.py -s 2 ```
 
+`-c` : Gera um csv (result.csv) do melhor resultado. Default: True
+ 
+`-t` : Gera um arquivo texto em pretty table (result.txt) do melhor resultado. Default: False
+
 ## Dependências:
 
 rejuntis_db (atualmente usando dados "mockados"), PrettyTable, json, csv.
@@ -31,5 +35,6 @@ rejuntis_db (atualmente usando dados "mockados"), PrettyTable, json, csv.
 * Adicionar condicionais de laboratório, salas de aula, etc;
 * Gerar lista de preferencias (alunos) considerando hierarquia das disciplinas;
 * Garantir funcionamento do gerador de preferências dos alunos com lista de disciplinas feitas (testar, já implementado);
-* Gerencias eletivas;
-* Linkar com UI e BD;
+* Garantir disciplinas do primeiro semestre se semestre atual = 1;
+* Gerenciar disciplinas eletivas;
+* Linkar com UI e BD.
