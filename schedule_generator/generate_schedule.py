@@ -32,6 +32,7 @@ from prettytable import PrettyTable
 import make_csv
 
 DISCIPLINAS_SEM_HORARIO = [56, 59, 61]
+ENABLE_LOGS = False
 
 def run(Filename, Num, RandNum, semestre, csv_enabled, pretty_table_enabled):
     start_time = time.time()
@@ -58,6 +59,7 @@ def run(Filename, Num, RandNum, semestre, csv_enabled, pretty_table_enabled):
     x.add_column("Total professores", ["%s " % len(professores)])
     x.add_column("Total disciplinas semestre", ["%s " % len(final_result)])
     x.add_column("Carga semestre", ["%s créditos" % get_total_creditos(final_result)])
+    x.add_column("N. conflitos melhor resultado", ["%s" % top_schedules[0]['conflitos']])
     print x
 
 
@@ -105,7 +107,7 @@ def generate_schedules(disciplinas, professores0, acc, N=100):
         horarios_possiveis = [h for h in horarios_possiveis if h not in horarios_mesmo_semestre]
         shuffle(horarios_possiveis)
         if horarios_possiveis == []:
-            if d['id'] not in DISCIPLINAS_SEM_HORARIO:
+            if d['id'] not in DISCIPLINAS_SEM_HORARIO and ENABLE_LOGS:
                 print "Disciplina", d['nome'], "nao podera ser ministrada porque nao existem mais horarios disponiveis"
         else:
             when = horarios_possiveis[0]
