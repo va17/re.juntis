@@ -106,7 +106,7 @@ def generate_schedules(disciplinas, professores0, acc, N=100):
         horarios_mesmo_semestre = [s['time'] for s in schedule if s['semestre'] == d['semestre']]
         horarios_possiveis = [h for h in horarios_possiveis if h not in horarios_mesmo_semestre]
         shuffle(horarios_possiveis)
-        if horarios_possiveis == []:
+        if horarios_possiveis == [] or d['id'] in DISCIPLINAS_SEM_HORARIO:
             if d['id'] not in DISCIPLINAS_SEM_HORARIO and ENABLE_LOGS:
                 print "Disciplina", d['nome'], "nao podera ser ministrada porque nao existem mais horarios disponiveis"
         else:
@@ -154,6 +154,12 @@ def add_time_disciplina(disciplinas, professores):
 
 
 def fit_disciplinas(disciplinas, creditos, creditos_semestre):
+    # Remove disciplinas que não necessitam de horário explicito (ex: TCC1, TCC2...)
+    i = 0
+    for d in disciplinas:
+        if d['id'] in DISCIPLINAS_SEM_HORARIO:
+            disciplinas.pop(i)
+        i += 1
     while creditos > creditos_semestre:
         disciplinas.pop()
         creditos = get_total_creditos(disciplinas)

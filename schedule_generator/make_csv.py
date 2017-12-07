@@ -50,7 +50,7 @@ def write_csv(Schedules, csv_enabled, pretty_table_enabled, CsvFilename = 'resul
             while sem <= 10:
                 for item in d[ix]:
                     if item['semestre'] == sem:
-                        pos = item['time']+((sem-1)*12)-(ix*12)
+                        pos = item['time']+((sem-1)*12)-(ix*12)-1
                         dia[ix][pos] = item['nome']
                 sem += 1
         if pretty_table_enabled:
